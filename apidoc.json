@@ -1,0 +1,22 @@
+{
+  "name": "Doc API - Krud Mongoose",
+  "version": "0.1.0",
+  "description": "Documentation for the Krud Mongoose boilerplate",
+  "title": "Doc - Krud Mongoose",
+  "url" : "http://localhost:3000",
+  "header": {
+    "title": "Install, config and run",
+    "filename": "./doc/header.md"
+  },
+  "footer": {
+    "title": "Thanks to",
+    "filename": "./doc/footer.md"
+  },
+  "order": [
+    "Messages"
+  ],
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

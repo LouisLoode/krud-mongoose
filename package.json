@@ -1,0 +1,63 @@
+{
+  "name": "krud-mongoose",
+  "version": "0.0.1",
+  "description": "This is a boilerplate Koa2 and Mongoose",
+  "main": "app.js",
+  "author": "Louisloode",
+  "contributors": [
+    {
+      "name": "Louis DEBRAINE",
+      "email": "louisdebraine@gmail.com"
+    }
+  ],
+  "private": false,
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha 'test/**/*.js' --reporter spec",
+    "start": "NODE_ENV=production pm2 start process.json",
+    "stop": "pm2 stop process.json && pm2 delete process.json"
+  },
+  "keywords": [
+    "krud",
+    "KoaJS",
+    "NodeJS",
+    "Mongoose",
+    "API"
+  ],
+  "dependencies": {
+    "boom": "~4.2.0",
+    "co": "~4.6.0",
+    "include-all": "~2.0.0",
+    "joi": "~10.1.0",
+    "jslint": "^0.10.3",
+    "kcors": "^1.3.0",
+    "koa": "^1.2.4",
+    "koa-async": "^1.0.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-boom": "0.0.4",
+    "koa-cors": "0.0.16",
+    "koa-csrf": "~3.0.4",
+    "koa-joi-router": "~4.0.0",
+    "koa-logger": "~1.3.0",
+    "koa-request": "^1.0.0",
+    "koa-response-time": "~1.0.2",
+    "kue": "~0.11.1",
+    "lodash": "^4.15.0",
+    "mailgun-js": "^0.8.0",
+    "mongoose": "~4.7.6",
+    "pm2": "~2.2.3",
+    "purest": "^3.0.0",
+    "recursive-readdir": "^2.0.0",
+    "request": "^2.76.0",
+    "winston": "~2.3.0"
+  },
+  "devDependencies": {
+    "apidoc": "~0.16.1",
+    "expect.js": "~0.3.1",
+    "faker": "~3.1.0",
+    "mocha": "3.2.0",
+    "node-jslint": "^0.1.1",
+    "nodemon": "~1.11.0",
+    "should": "~11.1.0",
+    "supertest": "2.0.1"
+  }
+}

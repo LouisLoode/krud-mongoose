@@ -1,0 +1,9 @@
+{
+  "apps" : {
+    "name"       : "Api",
+    "script"     : "./app.js",
+    "watch"       : true,
+    "instances"  : 1,
+    "max_resarts" : 10,
+  }
+}
